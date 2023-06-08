@@ -74,7 +74,8 @@ public class Main {
         test.addQuestion(new Question("Питання 3: Яка письменниця намальована на 200-гривневій купюрі?", "Леся Українка"));
         test.addQuestion(new Question("Питання 4: Столиця України?", "Київ"));
         test.addQuestion(new Question("Питання 5: 2*2+2?", "6"));
-        
+
+        System.out.println("");
         test.conductTest();
     }
 }
